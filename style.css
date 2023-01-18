@@ -1,0 +1,87 @@
+*
+{
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+.CoolContent
+{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.content
+{
+  margin-top: 1.2%;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+}
+aside.SidoKontent
+{
+  width: 15%;
+  background-color: lightgrey;
+}
+main
+{
+  width: 100%;
+  background-color: white;
+  border: 1px solid lightblue;
+}
+nav
+{
+    margin-top:1.5%;
+    width:15%;
+    overflow: hidden;
+    background-color: white;
+}
+nav a
+{
+  border-left: 1px solid lightblue;
+  border-right: 1px solid lightblue;
+  float: left;
+  flex-direction: row;
+  display: flex;
+  color: blue;
+  font-size: 0.7rem;
+  text-align: center;
+  padding: 5px;
+  text-decoration: none;
+}
+nav a:hover
+{
+  text-decoration: underline;
+}
+ul
+{
+  display: flex;
+  flex-direction: column;
+  font-size: 0.8rem;
+  color: blue;
+  margin-top: 25%;
+  list-style-type: none;
+}
+ul li a
+{
+  margin-left: 10%;
+  margin-top: 5px;
+  text-decoration: none;
+}
+ul li a:hover
+{
+  text-decoration: underline;
+}
+img
+{
+  width: 80%;
+  height: 150px;
+  margin-left:10% ;
+  margin-right:10% ;
+}
+h1
+{
+  margin-left: 10%;
+  font-size: 0.8rem;
+  color:grey;
+  text-decoration: underline darkgrey;
+}
