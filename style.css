@@ -4,6 +4,12 @@
   padding: 0;
   margin: 0;
 }
+body
+{
+  background-color: white;
+
+  background-image: linear-gradient(white, #F6F6F6);
+}
 .CoolContent
 {
   width: 100%;
@@ -12,41 +18,105 @@
 }
 .content
 {
-  margin-top: 1.2%;
   width: 100%;
   display: flex;
   flex-direction: row;
 }
 aside.SidoKontent
 {
+  margin-top: 0.2%;
   width: 15%;
-  background-color: lightgrey;
 }
 main
 {
   width: 100%;
   background-color: white;
-  border: 1px solid lightblue;
+  border: 1px solid #b5defa;
+}
+.WriteBox
+{
+  margin-left: 1.5%;
+  margin-right: 1.5;
+  display: flex;
+  flex-direction: row;
 }
 nav
 {
     margin-top:1.5%;
-    width:15%;
-    overflow: hidden;
+    width:100%;
     background-color: white;
 }
 nav a
 {
-  border-left: 1px solid lightblue;
-  border-right: 1px solid lightblue;
-  float: left;
-  flex-direction: row;
-  display: flex;
+  border-left: 1px solid #b5defa;
+  border-right: 1px solid #b5defa;
   color: blue;
-  font-size: 0.7rem;
+  font-size: 0.9rem;
   text-align: center;
   padding: 5px;
   text-decoration: none;
+  background-image: linear-gradient(rgba(255, 0, 0, 0), #e9f3F8);
+}
+.left
+{
+  float: left;
+  flex-direction: row;
+  display: flex;
+}
+.right
+{
+  float: right;
+  flex-direction: row;
+  display: flex;
+}
+.SearchBar
+{
+  margin-left: 5px;
+  margin-bottom: 2px;
+  float: right;
+  display: flex;
+  flex-direction: row;
+  width: 20%;
+  border: 1px solid grey;
+  border-radius: 2px;
+  margin-right: 20px;
+}
+.SearchBar p
+{
+  padding-left: 2px;
+  color: grey;
+  padding-bottom: 2px;
+  padding-top: 2px;
+}
+.TopRight
+{
+    margin-top: 1.2%;
+    margin-bottom: 0.5%;
+    margin-right: 1%;
+    display: flex;
+    margin-left: 62%;
+}
+.TopRight a
+{
+  float: right;
+  margin-left: 2.5%;
+  text-decoration: none;
+}
+.TopRight a:hover
+{
+  text-decoration: underline;
+}
+.TopRight p
+{
+  color: #444444;
+}
+img#LogInPic
+{
+  width: 16px;
+  height: 20px;
+  padding-bottom: 5px;
+  margin-right: 1%;
+
 }
 nav a:hover
 {
@@ -71,17 +141,168 @@ ul li a:hover
 {
   text-decoration: underline;
 }
-img
+img#logo
 {
   width: 80%;
   height: 150px;
   margin-left:10% ;
   margin-right:10% ;
 }
+img#SearchIcon
+{
+  margin-top: 2.5%;
+  float: right;
+  margin-left: 35%;
+  width: 5%;
+  height: 5%;
+
+}
 h1
 {
   margin-left: 10%;
   font-size: 0.8rem;
   color:grey;
-  text-decoration: underline darkgrey;
+  display: inline-block;
+  width: 70%;
+  border-bottom: 2px solid grey;
+}
+header
+{
+margin-top: 1.5%;
+margin-left: 1.5%;
+margin-right: 1.5%;
+width: 97%;
+border-bottom: 1px solid grey;
+}
+header.big
+{
+  font-size: 2rem;
+}
+header.Small
+{
+  font-size: 1.5rem;
+}
+article
+{
+  margin-top: 3.5%;
+  width: 97%;
+  display: flex;
+  flex-direction: row;
+  margin-left:1.5%;
+  margin-right:1.5%;
+}
+article.AuktoritetsData
+{
+  border: 1px solid gray;
+}
+article.AuktoritetsData .Box
+{
+  background-color: lightblue;
+  padding: 0.9%;
+  margin: 0.2%;
+  display: flex;
+  flex-direction: row;
+}
+article.AuktoritetsData .Box a:hover
+{
+  text-decoration : underline;
+}
+article.AuktoritetsData .Box a
+{
+  text-decoration: none;
+}
+article.AuktoritetsData a
+{
+  margin-left: 0.8%;
+}
+article.Kategorier
+{
+  background-color: #F6F6F6;
+  border: 1px solid gray;
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 2%;
+}
+article.Kategorier a
+{
+  text-decoration: none;
+  margin-left: 0.5%;
+  margin-right: 0.5%;
+}
+article.Kategorier a:hover
+{
+  text-decoration: underline;
+}
+article.Kategorier p
+{
+  color: gray;
+}
+footer
+{
+  font-size: 0.8rem;
+  margin-left: 2%;
+  width: 98%;
+  display: flex;
+  flex-direction:column;
+}
+article a
+{
+  text-decoration: none;
+}
+article a:hover
+{
+  text-decoration: underline;
+}
+.StatiskaLänkar a
+{
+  margin-right: 1.5%;
+  text-decoration: none;
+}
+footer a:hover
+{
+  text-decoration: underline;
+}
+.FooterText
+{
+  margin-top: 1.5%;
+}
+.FooterText2
+{
+  margin-top: 1.5%;
+  margin-bottom: 1.5%;
+}
+.FooterText2 a
+{
+  text-decoration: none;
+}
+.FooterText2 a:hover
+{
+  text-decoration: underline;
+}
+img#MainPic
+{
+  margin-top: 6%;
+  margin-bottom: 6%;
+  width: 100%;
+  height: 200px;
+  padding: 5px;
+  border-bottom: 1.5px solid grey;
+}
+.InfoSection
+{
+  width: 100%;
+  margin-top: 20.5%;
+  border-bottom: 1.5px solid grey;
+}
+.MainPicInfoBox
+{
+  margin-top: 1%;
+  margin-bottom: 2%;
+  margin-right: 1.5%;
+  width: 100%;
+  height: 500px;
+  display: flex;
+  flex-direction: column;
+  background-color: #F6F6F6;
+  border: 1.2px solid grey;
 }
