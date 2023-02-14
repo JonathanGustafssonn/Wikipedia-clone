@@ -10,7 +10,11 @@ body
 
   background-image: linear-gradient(white, #F6F6F6);
 }
-.CoolContent
+a
+{
+  color: blue;
+}
+.MainContent
 {
   width: 100%;
   display: flex;
@@ -87,7 +91,7 @@ nav a
     margin-bottom: 0.5%;
     margin-right: 1%;
     display: flex;
-    margin-left: 62%;
+    margin-left: 58%;
 }
 .TopRight a
 {
@@ -115,7 +119,7 @@ nav a:hover
 {
   text-decoration: underline;
 }
-ul
+ul.Aside
 {
   display: flex;
   flex-direction: column;
@@ -124,13 +128,13 @@ ul
   margin-top: 25%;
   list-style-type: none;
 }
-ul li a
+ul.Aside li a
 {
   margin-left: 10%;
   margin-top: 5px;
   text-decoration: none;
 }
-ul li a:hover
+ul.Aside li a:hover
 {
   text-decoration: underline;
 }
@@ -172,14 +176,14 @@ header.Small
 {
   font-size: 1.5rem;
 }
-article.Kategorier
+section.Kategorier
 {
   margin-top: 3.5%;
   width: 100%;
   display: flex;
   flex-direction: row;
 }
-article.AuktoritetsData
+section.AuktoritetsData
 {
   border: 1px solid gray;
 
@@ -188,7 +192,7 @@ article.AuktoritetsData
   display: flex;
   flex-direction: row;
 }
-article.AuktoritetsData .Box
+section.AuktoritetsData .Box
 {
   background-color: lightblue;
   padding: 0.9%;
@@ -196,19 +200,19 @@ article.AuktoritetsData .Box
   display: flex;
   flex-direction: row;
 }
-article.AuktoritetsData .Box a:hover
+section.AuktoritetsData .Box a:hover
 {
   text-decoration : underline;
 }
-article.AuktoritetsData .Box a
+section.AuktoritetsData .Box a
 {
   text-decoration: none;
 }
-article.AuktoritetsData a
+section.AuktoritetsData a
 {
   margin-left: 0.8%;
 }
-article.Kategorier
+section.Kategorier
 {
   background-color: #F6F6F6;
   border: 1px solid gray;
@@ -216,17 +220,17 @@ article.Kategorier
   flex-direction: row;
   margin-bottom: 2%;
 }
-article.Kategorier a
+section.Kategorier a
 {
   text-decoration: none;
   margin-left: 0.5%;
   margin-right: 0.5%;
 }
-article.Kategorier a:hover
+section.Kategorier a:hover
 {
   text-decoration: underline;
 }
-article.Kategorier p
+section.Kategorier p
 {
   color: gray;
 }
@@ -238,11 +242,11 @@ footer
   display: flex;
   flex-direction:column;
 }
-article a
+section a
 {
   text-decoration: none;
 }
-article a:hover
+section a:hover
 {
   text-decoration: underline;
 }
@@ -250,6 +254,10 @@ article a:hover
 {
   margin-right: 1.5%;
   text-decoration: none;
+}
+.StatiskaLänkar
+{
+  margin-bottom: 1%;
 }
 footer a:hover
 {
@@ -274,16 +282,19 @@ footer a:hover
 }
 img#MainPic
 {
-  margin-top: 6%;
-  margin-bottom: 6%;
+  margin-top: 1%;
   width: 100%;
   height: 200px;
   padding: 5px;
-  border-bottom: 1.5px solid grey;
 }
 .InfoSection
 {
   width: 100%;
+}
+.InfoSection p
+{
+  margin-left: 3.5%;
+  margin-right: 3.5%;
 }
 .WriteBox
 {
@@ -292,7 +303,7 @@ img#MainPic
   width: auto;
   background-color: ;
 }
-article.TextInlägg
+section.TextInlägg
 {
   margin-top: 1.5%;
   margin-right: 1.5%;
@@ -309,7 +320,7 @@ article.TextInlägg
 }
 .PicBox
 {
-  width: 100%;
+  width: 120%;
   display: flex;
   background-color: #F6F6F6;
   height: auto;
@@ -327,34 +338,25 @@ article.TextInlägg
   flex-direction: column;
   border:1.5px solid grey;
 }
-
-
-/*
-.MainPicInfoBox
+.ContentDesignation a
 {
-  margin-top: 1%;
-  margin-bottom: 2%;
-  margin-right: 1.5%;
-  width: 10%;
-  height: 500px;
-  display: flex;
-  flex-direction: column;
-  background-color: #F6F6F6;
-  border: 1.2px solid grey;
-}
-
-.ContentDesignation
-{
-  width: 20%;
-  padding-bottom: 5%;
-  background-color: green;
-  height: 200px;
-  display: ;
+  margin-top: 1.2%;
+  margin-left: 1.2%;
 }
 .WriteBox p
 {
-  background-color: red;
-  display: flex;
-  flex-direction: row;
+  margin-bottom: 1.5%;
+  line-height: 125%;
+  word-spacing: 1.10px;
 }
-*/
+ul.ImpactChanges
+{
+  margin-left: 1.5%;
+  line-height: 125%;
+  word-spacing: 1.10px;
+}
+.WriteBox ol
+{
+  margin-left: 1.5%;
+  margin-top: 0.5%;
+}
